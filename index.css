@@ -1,0 +1,239 @@
+html{
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+}
+
+body {
+background-image:url(images/image-lion-background.png);
+background-position: top center ;
+background-repeat: no-repeat;
+font-family: 'Big Shoulders Stencil Display', cursive;
+font-size: 1.25rem;
+color: white;
+
+}
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+    border-bottom: 1px solid lightgrey;
+ 
+}
+
+
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.main2{
+    min-height: 300px;
+    padding-top: 20px;
+    
+
+}
+.inputwrapper{
+    margin-bottom: 20px;
+
+}
+.newline{
+    display: block;
+    margin-bottom: 10px;
+}
+textarea{
+    box-sizing: border-box;
+}
+a{
+ color: white;
+ text-decoration: none;
+ text-align: center;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.card1 {
+   min-height: 250px;
+   width: 30%;
+   background-image: url(images/image-background-card1-b.jpg);
+   background-position: bottom;
+   background-size: cover;
+
+}
+.card2 {
+    min-height: 250px;
+    width: 30%;
+    background-image: url(images/image-background-card2-b.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.card3 {
+    min-height: 250px;
+    width: 30%;
+    background-image: url(images/image-background-card3-b.jpg);
+    background-position: bottom;
+    background-size: cover;
+
+    
+}
+.card1,.card2,.card3{
+    box-sizing: border-box;
+    padding: 30px 30px 20px 30px;
+}
+.box1 {
+    width: 30%;
+    flex: 2;
+    padding-right: 100px;
+    
+}
+.box2{
+    width: 50%;
+    flex: 1;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin-bottom: 1rem;
+    
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin-top: 20px;
+
+}
+h3{
+    
+    font-size: 2rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin-top: 20px;
+}
+h4{
+    font-size: 2rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin-top: 20px;
+}
+p{
+    line-height: 1.75rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin-bottom: 1rem;
+}
+
+    
+   
+
+.card1 p{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    
+    
+}
+.card2 p{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    
+    
+}
+.card3 p{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    
+    
+}
+.cards i{
+    font-size: 100px;
+    padding-top: 30px;
+}
+.cards a{
+    text-decoration: none;
+    color: white;
+}
+.mybutton{
+     background-color: white; 
+    color: rgb(5, 5, 5);
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    text-decoration: none;
+    padding: 11px 25px;
+   border-radius: 12px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.801);
+}
+.mybutton:hover{
+    background-color:hotpink;
+    transition: 1s;
+
+}
+
+
+a.mybutton{
+    display: inline-block;
+    margin-top: 20px;
+}
+nav a.mybutton{
+    margin-left: 30px;
+}
+
+.navbutton{
+    border: 1px solid white;
+    padding: 11px 25px ;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    display: inline-block;
+    position: relative;
+    
+}
+.dropdownbutton{
+    display: none;
+position: absolute;
+z-index: 99;
+text-align: center;
+padding: 20px;
+margin-left: -45px;
+bo
+}
+.navbutton:hover .dropdownbutton{
+    width: 115px;
+    display: block;
+
+}
+.dropdownbutton .navbutton{
+    background-color: white;
+}
+.dropdownbutton a{
+    color: black;
+}
+
+.testmonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+.tbox{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px; 
+
+}
+
+.tbox p:first-child{
+    font-size: 1.05rem;
+    padding-left: 30px;
+}
+
